@@ -1,0 +1,32 @@
+.hero{
+    width: 100%;
+    height: 100vh;
+    /* background-image: url('../../public/image/NFT_Brand.jpg'); */
+    /* background-image: radial-gradient( circle 610px at 5.2% 51.6%,  rgba(5,8,114,1) 0%, rgba(7,3,53,1) 97.5% ); */
+    /* background-size: cover; */
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+}
+.navbar .navbar-nav .nav-link:hover{
+    background-color: #acdcff;
+    color: blue;
+}
+.hero .con{
+    padding-top: 10px;
+    text-align: center;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.hero .con .title{
+    font-size: 50px;
+    padding-bottom: 30px;
+    font-family:'Segoe UI', Tahoma, 'Geneva', Verdana, sans-serif
+}
+.logo{
+    width: 100px;
+}
+

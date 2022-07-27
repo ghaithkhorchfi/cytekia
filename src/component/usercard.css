@@ -1,0 +1,73 @@
+.usercard{
+    position: relative;
+    width: 100%;
+    height: 200px;
+    background: rgba(255,255,255,0.05);
+    margin: 20px;
+    box-shadow: 0 15px 35px rgba(0,0,0,0.2);
+    border-radius: 15px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    
+    backdrop-filter: blur(10px);
+}
+.usercard .cont{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    opacity: 0.5;
+    transition: 0.5s;
+    padding: 10px 20px 70px 
+
+}
+.usercard .cont:hover{
+    opacity: 1;
+}
+.usercard .cont .imgbx{
+    position: relative;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 2px solid rgba(0,0,0,0.25); 
+    margin-right: 20px; 
+    padding-right: 90px;  
+}
+.usercard .cont .imgbx img{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.usercard .cont .contbx h3{
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 500;
+    font-size:18px;
+    text-align: center;
+    margin: 20px 0 10px;
+    line-height: 1.1em;
+    width: fit-content;
+
+}
+.usercard .cont .contbx h3 span{
+ font-size: 12px;
+ font-weight: 300;
+ text-transform: initial;
+}
+@media(max-width:1000px){
+    .usercard .cont{
+        width: 100%;
+    }
+
+}
+@media(max-width:750px){
+    .usercard .cont {
+        width: 100%;
+    }
+
+}
